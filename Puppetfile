@@ -7,7 +7,7 @@ mod "puppetlabs/inifile", :latest
 mod "puppetlabs/stdlib", :latest
 mod "puppetlabs/concat", :latest
 mod "saz/ssh", :latest
-mod "puppet/stash",           '1.3.0'
+#mod "puppet/stash",           '1.3.0'
 
 #An example of using a specific forge module version instead of latest
 #Notice the addition of single quotes
@@ -24,7 +24,7 @@ mod 'r10k',
   :git => 'https://github.com/acidprime/r10k',
   :tag => 'v3.1.1'
 
-mod 'gms',
-  :git    => 'https://github.com/npwalker/abrader-gms',
-  :branch => 'gitlab_disable_ssl_verify_support'
+#mod 'gms',
+#  :git    => 'https://github.com/npwalker/abrader-gms',
+#  :branch => 'gitlab_disable_ssl_verify_support'
 
