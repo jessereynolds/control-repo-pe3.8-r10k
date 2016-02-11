@@ -8,7 +8,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/concat", :latest
 #mod "saz/ssh", :latest
 
-mod "zack/r10k", '3.2.0'
+mod "zack/r10k", '2.8.4'
 mod "croddy/make", '0.0.5'
 mod "gentoo/portage", '2.3.0'
 mod "puppetlabs/concat", '2.1.0'
