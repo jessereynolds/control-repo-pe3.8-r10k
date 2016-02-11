@@ -20,9 +20,11 @@ mod "saz/ssh", :latest
 #  :git => 'https://github.com/hunner/puppet-hiera',
 #  :tag => '1.3.1'
 
-mod 'r10k',
-  :git => 'https://github.com/acidprime/r10k',
-  :tag => 'v3.1.1'
+mod "zack/r10k"
+
+#mod 'r10k',
+#  :git => 'https://github.com/acidprime/r10k',
+#  :tag => 'v3.1.1'
 
 #mod 'gms',
 #  :git    => 'https://github.com/npwalker/abrader-gms',
